@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+
+  <!--
+    ==========================================================
+    TO CHANGE WHERE THE QR CODE GOES:
+    Edit the URL below (the DESTINATION value), save,
+    then commit & push. That's the only change you need.
+    ==========================================================
+  -->
+  <script>
+    const DESTINATION = "https://sanil-sharma.github.io/No-Sideline-Sports-Website/";
+    window.location.replace(DESTINATION);
+  </script>
+
+  <!-- Fallback redirect if JavaScript is disabled -->
+  <noscript>
+    <meta http-equiv="refresh"
+          content="0; url=https://sanil-sharma.github.io/No-Sideline-Sports-Website/">
+  </noscript>
+
+  <title>Redirecting…</title>
+</head>
+<body>
+  <p>
+    Redirecting…
+    <a id="fallback" href="https://sanil-sharma.github.io/No-Sideline-Sports-Website/">
+      Click here if you are not redirected automatically.
+    </a>
+  </p>
+  <script>
+    // Keep the visible fallback link in sync with DESTINATION.
+    document.getElementById("fallback").href = DESTINATION;
+  </script>
+</body>
+</html>
